@@ -21,7 +21,6 @@ class Window:
         self.user_select_enable = False
 
         self.save_files = SaveFiles()
-        print(self.save_files.directory_list)
 
         keyboard.on_press(self.hotkey_press)
         root.bind('<KeyPress>', self.hotkey_record)
