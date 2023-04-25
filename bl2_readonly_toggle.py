@@ -132,6 +132,7 @@ class SaveFiles:
         self.readonly_toggle = not self.readonly_toggle
 
 
+# TODO: User can specify their directory
 root = Tk()
 root.title('Borderlands 2 ReadOnly Toggle')
 root.geometry('500x300')
