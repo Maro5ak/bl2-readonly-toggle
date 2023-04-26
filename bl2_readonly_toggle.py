@@ -85,7 +85,7 @@ class SaveFiles:
         self.read_frequency = 500
         self.write_frequency = 200
         self.duration = 200
-        self.readonly_toggle = False
+        self.readonly_toggle = True
         self.savefile_directory = ""
         self.savefile = ""
         self.savefile_absolute_path = ""
